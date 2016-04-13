@@ -14,8 +14,9 @@ Gem::Specification.new do |s|
     'http://foundation.zurb.com/emails.html'
   s.license     = 'MIT'
 
-  s.files = ["lib/foundation/emails.rb", "lib/foundation/emails/version.rb", "README.md", "LICENSE.md"]
-  s.files += Dir.glob("scss/**/*.*")
+  s.files = ["README.md", "LICENSE.md"]
+  s.files += Dir.glob("lib/**/*.*")
+  s.files += Dir.glob("vendor/assets/stylesheets/foundation-emails/**/*.*")
 
   s.add_development_dependency "bundler", "~> 1.10"
   s.add_development_dependency "rake", "~> 10.0"
